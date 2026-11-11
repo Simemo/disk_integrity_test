@@ -1,3 +1,7 @@
+# Author: Maciej Cisek
+# This small program generates a list of files of a specified size within a given path, and then tests reading them.
+# The program was written for testing floppy disks and SD memory cards.
+
 """Generate files to a target size, then verify every file with SHA-256."""
 
 import argparse
